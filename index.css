@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-cielo-pastel-acuarela-pintado-mano_23-2148920282.jpg?w=2000);
+    background-size: cover;
+}
+
+.grid {
+    position: absolute;
+    width: 565px;
+    margin-left: 31vw;
+    margin-top: 4vh;
+    height: 300px;
+    border: solid #000000 2px;
+    border-radius: 10px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-dibujos-animados-pared-ladrillo_97231-2003.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    outline: 2px solid #333;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: lightsalmon;
+    background-image: url(https://thumbs.dreamstime.com/b/la-alerta-amarilla-raya-el-fondo-26140700.jpg);
+    background-size: cover;
+    border: 2px solid #333;
+    border-radius: 2px;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: lightgreen;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7bnUnbIE-abPEfKU0kw2MIySBmBOrpc9pFg&usqp=CAU);
+    background-size: cover;
+    box-shadow: 1px 2px 2px 2px #333;
+}
+
+#score {
+    text-align: center;
+    color: #222121;
+    margin: 3px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 80px;
+    text-align: center;
+}
